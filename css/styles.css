@@ -1,19 +1,19 @@
-@@font-face {
 
-  font-family: myFirstFont;
-  src: url(https://fonts.google.com/specimen/Dancing+Script);
-}
-
-*{
-  font-family: myFirstFont;
-}
 h1{
+  font-family: "Dancing Script";
+ font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+   font-weight: 400;
+    line-height: 20px;
   color: #076C66
   font-style:Dancing-Script;
   text-align: center;
+  background-color: #66BAA4
 }
 body{
   background-image:
    url(file:///home/ahere/.cache/.fr-gxUHVk/vectorstock_21801897/vectorstock_21801897.jpg);
   background-size: 1500px;
 }
+p { font-family: "Dancing Script"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
