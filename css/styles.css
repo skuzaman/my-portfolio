@@ -1,10 +1,16 @@
+@@font-face {
 
+  font-family: myFirstFont;
+  src: url(https://fonts.google.com/specimen/Dancing+Script);
+}
 
+*{
+  font-family: myFirstFont;
+}
 h1{
-
-  font-family: "Dancing script";
-  font-size: 24px;
-
+  color: #076C66
+  font-style:Dancing-Script;
+  text-align: center;
 }
 body{
   background-image:
