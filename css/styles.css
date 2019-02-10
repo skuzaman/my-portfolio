@@ -1,9 +1,4 @@
-@font-face{
-  font-family: "Dancing Script";
-  src:url(https://www.cssfontstack.com/Dancing-Script);
-  font-weight: normal;
-  font-style: normal;
-}
+
 h1{
   color: #55716D
   font-style:normal;
@@ -12,7 +7,7 @@ h1{
 }
 body{
   background-image:
-   url(file:///tmp/mozilla_ahere0/abstract-art-black-background-1040499.jpg);
+   url(file:///home/ahere/Downloads/abstract-art-black-background-831079.jpg);
   background-size: 1300px;
 }
 p{
@@ -30,4 +25,33 @@ h2{
 }
 h3{
   color:#55716D
+}
+p{
+  text-align: center;
+}
+ol{
+  text-align: center;
+}
+ul{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+img{
+border-radius: 20px;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+  color: #55716D;
 }
