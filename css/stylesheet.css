@@ -9,7 +9,7 @@ h1 {
   text-align: center;
 }
 body{
-  background-image: url(file:///home/ahere/Downloads/blurred-background-daylight-fog-1323208.jpg);
+  background-image: url('../image/blurred-background-daylight-fog-1323208.jpg');
   background-size: 1300px;
 }
 img{
