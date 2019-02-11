@@ -1,0 +1,33 @@
+h1{
+  color: #094037;
+}
+body{
+  background-color: grey
+}
+
+  h1 {
+    text-align: center;}
+body{
+  background-image: url(file:///home/ahere/Downloads/blurred-background-daylight-fog-1323208.jpg);
+  background-size: 1300px;
+}
+ul{
+  color:#C9EDE5
+}
+p{
+  text-align: center;
+}
+ul{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+  border-radius: 20px;
+}

@@ -1,0 +1,47 @@
+
+body {
+    font-family: 'Cormorant Upright';font-size: 19.7px;
+}
+h1{
+  color: #094037;
+}
+h1 {
+  text-align: center;
+}
+body{
+  background-image: url(file:///home/ahere/Downloads/blurred-background-daylight-fog-1323208.jpg);
+  background-size: 1300px;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+  border-radius: 20px;
+}
+
+p{
+  text-align: center;
+}
+ul{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+ul{
+  color:#445D5C
+}
+ol{
+  text-align: center;
+}
+P{
+  color: #C3DCDB;
+}
+ol{
+  color: #C3DCDB;
+}
