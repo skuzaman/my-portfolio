@@ -45,3 +45,287 @@ P{
 ol{
   color: #C3DCDB;
 }
+
+.contacts img{
+  width: 3em;
+  margin-left: 2em;
+  margin-right: 2em;
+  border-radius: 1.5em;
+}
+
+.contacts img:hover{
+  box-shadow: 5px 5px 5px grey;
+  width: 3.2em;
+  border-radius: 1.5em;
+}
+
+.contacts{
+  background-color: #506867(255, 255, 255, 0.9);
+  padding: 0.5em;
+  text-align: center;
+}
+
+nav{
+  margin-top: 2em;
+  margin-left: -2em;
+  text-align: center;
+}
+
+nav>ul>li{
+  display: inline-block;
+  margin-right: 0.15em;
+}
+
+nav>ul>li>a{
+  font-family: Arial;
+  padding-right: 0.1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav>ul>li>a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+
+.topbar, #imagetext{
+  display: flex;
+  color: white;
+}
+
+.topbar{
+  /* justify-content: center; */
+  flex-direction: column;
+  padding-top: 2em;
+}
+
+#title{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+#bold{
+  font-weight: bold;
+  color: skyblue;
+}
+
+#personal{
+  width: 5em;
+  height: 5em;
+  margin-right: 0.5em;
+  border-radius: 0.5em;
+  box-shadow: 3px 3px 3px grey;
+}
+
+#myname{
+  font-size: large;
+  margin-bottom: -0.5em;
+  padding-top: 0.8em;
+}
+
+#title h2{
+  font-size: small;
+  text-decoration: none;
+  padding-top: 0;
+}
+
+#navbar{
+  position: relative;
+  right: 0;
+}
+
+h4{
+  text-align: center;
+}
+
+#you{
+  font-size: x-large;
+  margin-top: 5em;
+  padding-bottom: 1em;
+
+}
+
+#first{
+  font-size: x-large;
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+#index1{
+  background-image: url('../image/blurred-background-daylight-fog-1323208.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+h2, h3, h4, h5, h6{
+  text-align: center;
+}
+
+.projects img{
+  width: 300px;
+  height: 15em;
+  margin: 2em;
+  margin-bottom: 0em;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.projects{
+  display: flex;
+  flex-direction: column;
+  background-color: #738786(255, 255, 255, 0.9);
+  color: black;
+  margin-bottom: 5em;
+  border-radius: 1em;
+}
+
+.individual{
+  margin: 1em;
+}
+
+.individual>ol{
+  display: flex;
+  flex-direction: column;
+}
+
+.button{
+  padding-right: 0.5em;
+  color: #F1F9F8;
+}
+
+.individual h5{
+  font-size: x-large;
+  color: maroon;
+}
+
+.individual h6{
+  margin-top: -1em;
+  margin-bottom: -0.5em;
+  color: blue;
+  font-size: large;
+}
+
+a{
+  color: lightblue;
+}
+
+
+h5 strong{
+  color: lightblue;
+}
+
+.everything{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  background-color: #476765(255, 255, 255, 0.9);
+  color: #1B3231;
+}
+
+.col a{
+  color: #8AA8A6;
+}
+
+.lb{
+  color: lightblue;
+}
+
+.col h3{
+  text-decoration: underline;
+}
+
+.col ol{
+  text-align: left;
+}
+
+h2{
+  text-decoration: underline;
+  font-size: xx-large;
+}
+
+.individual h5{
+  text-decoration: underline;
+}
+
+#contactme{
+  text-align: center;
+  padding: 3em;
+}
+
+#social{
+  text-align: center;
+  font-size: x-large;
+  color: #D9F0EF;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 812px) {
+  .topbar, #imagetext{
+    display: flex;
+    color: white;
+  }
+
+  .topbar{
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 3em;
+  }
+
+  nav{
+    margin: 0em;
+  }
+
+  nav>ul>li{
+    margin: 1em;
+  }
+
+  nav>ul>li>a{
+    padding: 0.5em;
+    text-decoration: none;
+  }
+
+  #you{
+    font-size: xx-large;
+    margin-top: 6em;
+  }
+
+  #first{
+    font-size: xx-large;
+  }
+
+  h2{
+    padding-top: 1.5em;
+  }
+
+  .projects img{
+    width: 30em;
+    margin-bottom: 4em;
+    margin-bottom: 2em;
+  }
+
+  .projects{
+    flex-direction: row;
+    border-radius: 3em;
+  }
+
+  .individual{
+    margin: 0em;
+  }
+
+  .button{
+    padding: 2em;
+  }
+
+  .everything{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .col{
+  padding: 2em;
+  }
+}
